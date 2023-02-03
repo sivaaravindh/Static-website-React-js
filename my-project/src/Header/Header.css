@@ -1,0 +1,65 @@
+.Header .logo h1 {
+    font-size: 36px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 300;
+    letter-spacing: 3px;
+}
+.fixed{
+    position: fixed;
+    width: 100%;
+    background-color: #22333e7d;
+}
+.Header a {
+    color: #edf8fd;
+    text-decoration: none;
+}
+@media (min-width:360px) {
+    nav a{
+        display:none ;
+    }
+    .b-icon{
+        display: block;
+    }
+}
+@media (min-width:600px) {
+    nav a{
+        display: none;
+    }
+    .b-icon{
+        display: block;
+    }
+}
+@media (min-width:800px) {
+    nav a{
+        display: inline-block;
+    }
+    .b-icon{
+        display: none;
+    }
+}
+@media (min-width:1025px) {
+    nav a{
+        display: inline-block;
+    }
+    .b-icon{
+        display: none;
+    }
+}
+.b-icon{
+    font-size: 24px;
+    color:#edf8fd;
+    padding-left: 75px;
+}
+.Header{
+    width:90%;
+    padding: 10px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+}
+.nav nav a{
+    margin:0 20px 0;
+    font-size: 24px;
+}

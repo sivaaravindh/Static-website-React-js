@@ -1,0 +1,150 @@
+.contect-container{
+    width:90%;
+    margin:auto;
+}
+.inCol input{
+	box-sizing:border-box;
+    width:100%;
+	height:38px;
+	border:1px solid #80808054;
+	padding:0px 20px;
+	border-radius:5px;
+}
+.input1{
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+.input2 input{
+    box-sizing:border-box;
+    width: 100%;
+	height:35px;
+	border:1px solid #80808054;
+	padding:0 20px;
+	border-radius:5px;
+}
+@media (min-width:360px) {
+    .col-logo{
+        width:100%;
+    }
+    .inCol{
+        width: 100%;
+    }     
+}
+@media (min-width:600px) {
+    .col-logo{
+        width:100%;
+    }
+    .inCol{
+        width: 100%;
+    } 
+}
+@media (min-width:800px) {
+    .col-logo{
+        width:33.3%;
+    }
+    .inCol{
+        width: 50%;
+    }  
+}
+@media (min-width:1020px) {
+    .col-logo{
+        width:33.3%;
+    }
+    .inCol{
+        width: 50%;
+    } 
+}
+
+.input2 {
+	padding:5px 8px;
+}
+.float{
+	padding-top:20px;
+}
+textarea {
+  width: 100%;
+  height: 120px;
+  box-sizing:border-box;
+  border:1px solid #80808054;
+  padding:5px 10px;
+  border-radius:5px;
+}
+.inCol{
+    padding:5px 8px;
+}
+.input2 textarea:hover{
+		outline:1px solid  #0ab8df;
+}
+.input1 input:hover{
+		outline:1px solid  #0ab8df;
+} 
+.input2 input:hover{
+	outline:1px solid  #0ab8df;
+} 	
+.text-center{
+	text-align:center;
+}
+.text-center button[type=submit]  {
+	background: #4f92af;
+    border: 0;
+    padding: 13px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+	Cursor:pointer;
+}
+.col-logo h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    color: #999;
+}
+.icon-contect i {
+    font-size: 48px;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #4f92af;
+}
+.info-row{
+    display:flex;
+    flex-wrap: wrap;
+}
+.col-logo{
+    margin: 15px 0;
+    text-align: center;
+}
+.contect-Address{
+    padding:5px 2px;
+}
+.phone-number{
+    padding:5px 10px;
+}
+.email-ADD{
+    padding:5px 10px;
+}
+.broder{
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.Contect-info{
+    padding: 37px 0px; 
+}
+.cont a{
+    color:black;
+    text-decoration: none;
+}
+.cont a:hover{
+    color:#49b5e7
+}
+.cont-head {
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+.cont-head h2 {
+    font-size: 32px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
